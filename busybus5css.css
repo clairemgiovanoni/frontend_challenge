@@ -1,0 +1,199 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+  font-size: 12px;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  height: 667px;
+  overflow: scroll;
+}
+
+/* Nav Styles */
+
+.nav {
+  background-image: url(ios-status-bar.png);
+  background-repeat: no-repeat;
+  background-color: #007aff;
+  padding: 20px;
+  height: 100px;
+  position: fixed;
+  width: 375px;
+}
+
+.left-arrow {
+  background-image: url(arrow-left.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 10%;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.icon {
+  background-image: url(busy-bus-icon-2.png);
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  float: left;
+  width: 15%;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.nav h1 {
+  font-size: 2.0em;
+  font-family: "sf pro display", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 22px;
+}
+
+
+/* Map Styles */
+
+.map {
+  background-image: url(busy-bus-map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 100px;
+  width: 100%;
+  height: 190px;
+}
+
+/* Bus Route List Styling */
+
+.bus-route {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #c8c7cc;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  display: block;
+  float: left;
+}
+
+
+.bus-route p {
+  font-size: 1.2em;
+  font-family: "sf pro display", sans-serif;
+  float: left;
+}
+
+.busline {
+  width: 65%;
+  height: 100px;
+  float: left;
+  padding-top: 16px;
+  padding-left: 10px;
+}
+
+.busline h2 {
+  font-size: 2.3em;
+  font-family: "sf pro display", sans-serif;
+  float: left;
+  font-weight: bold;
+  color: #007aff;
+  margin-right: 90px;
+}
+
+h2.red {
+  color: #ff3b30;
+}
+
+.busline p {
+  color: #333;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-right: 40px;
+  margin-top: 5px;
+  padding-left: 4px;
+}
+
+p.direction {
+  color: #333;
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-top: 5px;
+  float: left;
+}
+
+.time {
+  width: 35%;
+  height: 100px;
+  float: left;
+  padding-right: 10px;
+  padding-top: 16px;
+  text-align: right;
+}
+
+.time p {
+  margin-top: 7px;
+}
+
+.arrival-time {
+  float: right;
+}
+
+.arrival-time h3 {
+  font-size: 2.3em;
+  color: #007aff;
+  font-family: "sf pro display", sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  float: left;
+}
+
+.arrival-time p {
+  font-size: 1.2em;
+  color: #007aff;
+  font-family: "sf pro display", sans-serif;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+.resume {
+  color: #333;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-right: 2px;
+  margin-top: 18px;
+  padding-left: 4px;
+  font-family: "sf pro display", sans-serif;
+}
+
+.borange {
+  background-color: #ffffff;
+  border-bottom-width: 0px;
+}
+
+.bred {
+  background-color: #DADADA;
+  border-bottom-color: #c8c7cc;
+}
+
+.white h2 {
+  color: rgb(255, 59, 48);
+}
+
+.orange h2 {
+  color: rgb(255, 149, 0);
+}
+
+.white p {
+  color: #000000;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+h3.white {
+  color: #000000;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
