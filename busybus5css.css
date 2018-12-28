@@ -35,11 +35,6 @@ body {
   margin-top: 20px;
 }
 
-.left-arrow h4 {
-  font-size:1.4em;
-  font-family: "sf pro display", sans-serif;
-  color: #ffffff;
-  margin-left: 22px;
 
 .nav h1 {
   font-size: 2.0em;
@@ -194,4 +189,10 @@ h3.white {
   color: #000000;
   letter-spacing: 1px;
   font-weight: 400;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 1.4em;
+  font-family: sans-serif;
 }
