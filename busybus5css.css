@@ -190,3 +190,8 @@ h3.white {
   letter-spacing: 1px;
   font-weight: 400;
 }
+
+h4 {
+  color: #ffffff;
+  font-size: 1em;
+}
